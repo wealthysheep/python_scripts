@@ -21,3 +21,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# How it was tested:
+# cmd: python3 port_scanner.py
+# Target IP: scanme.nmap.org

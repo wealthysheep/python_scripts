@@ -21,3 +21,4 @@ with smtplib.SMTP_SSL('smtp.gmail.com',465) as stmp_server:
 
 
 reason_input = ("Why are they being rejected? ")
+send_email(subject, body, reasons, reason_input)

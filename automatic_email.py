@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 # email details
 subject = "Automated Rejection"
 body = "Hello, \n I regret to inform you that you have not been selected for this position. The reasons are as follows: "
-reasons = ["This was a ghost job.", "You resume did not pass our scanning pre-select screening from whatever program we use to scan resumes.", "We'd already selected somebody for the role but had to post it for legal reasons.", "There was an actual reason why you weren't selected." ]
+reasons = ["This was a ghost job.", "You resume did not pass our pre-select scanning screening from whatever program we use to scan resumes.", "We'd already selected somebody for the role but had to post it for legal reasons.", "There was an actual reason why you weren't selected." ]
 recipients = ["person1@example.com", "person2@example.com"]
 password = "N07_7H47_345Y"
 
